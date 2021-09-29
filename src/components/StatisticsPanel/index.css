@@ -1,0 +1,60 @@
+.statistical_parameter{
+    position: absolute;
+    bottom: 0;
+    background-color: transparent;
+}
+
+.statistical_parameter .container {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 28vh;
+    margin-left: 2vw;
+    display: flex;
+}
+.statistical_parameter .container .left {
+    width: 60%;
+    height: 100%;
+}
+.statistical_parameter .container .left header {
+    text-align: left;
+    color: #fff;
+    opacity: 0.9;
+}
+.statistical_parameter .container .left header span {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.statistical_parameter .container .left header span:nth-child(1) {
+    display: block;
+}
+.statistical_parameter .container .left header span:nth-child(2) {
+    color: #15c5e8;
+    font-size: 1.2em;
+    margin-top: 2px;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+    opacity: 0.6;
+}
+.statistical_parameter .container .left article {
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: #fff;
+}
+.statistical_parameter .container .left article li {
+    width: 50%;
+    flex-shrink: 1;
+    text-align: left;
+    line-height: 2rem;
+}
+.statistical_parameter .container .left article li span:nth-child(2) {
+    margin: 0 1px;
+    color: #1ac2e3;
+    opacity: 0.6;
+}
+.statistical_parameter .container .left article li span:nth-child(3) {
+    margin: 0 1px;
+    color: #fff;
+    opacity: 0.8;
+}

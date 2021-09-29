@@ -1,0 +1,24 @@
+{
+  "statisticalData": [
+    {
+      "name": "月发电量",
+      "value": "388.9",
+      "unit": "MWh"
+    },
+    {
+      "name": "日发电量",
+      "value": "21.3",
+      "unit": "MWh"
+    },
+    {
+      "name": "当日均速",
+      "value": "13.8",
+      "unit": "m/s"
+    },
+    {
+      "name": "风速最值",
+      "value": "22.3",
+      "unit": "m/s"
+    }
+  ]
+}

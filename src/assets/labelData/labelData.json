@@ -1,0 +1,142 @@
+{
+  "labelData": [
+    {
+      "polySurface152": {
+        "cn": "变桨系统",
+        "en": "Variable-Pitch System",
+        "list": [
+          {
+            "name": "轴箱1",
+            "value": "31",
+            "unit": "cm"
+          },
+          {
+            "name": "轴箱2",
+            "value": "55",
+            "unit": "cm"
+          }
+        ]
+      },
+      "polySurface258": {
+        "cn": "主轴",
+        "en": "Principal Axis",
+        "list": [
+          {
+            "name": "额定电压",
+            "value": "220",
+            "unit": "v"
+          },
+          {
+            "name": "额定电流",
+            "value": "101",
+            "unit": "A"
+          },
+          {
+            "name": "额定功率",
+            "value": "2",
+            "unit": "kw"
+          }
+        ]
+      },
+      "polySurface230": {
+        "cn": "齿轮箱",
+        "en": "Gear Box",
+        "list": [
+          {
+            "name": "齿轮箱温度",
+            "value": "51",
+            "unit": "°C"
+          },
+          {
+            "name": "入口轴温度",
+            "value": "41",
+            "unit": "°C"
+          },
+          {
+            "name": "输入轴温度",
+            "value": "66",
+            "unit": "°C"
+          }
+        ]
+      },
+      "pasted__pCube97": {
+        "cn": "风冷装置",
+        "en": "Air Cooling System",
+        "list": [
+          {
+            "name": "风冷温度",
+            "value": "7",
+            "unit": "°C"
+          },
+          {
+            "name": "风冷功率",
+            "value": "300",
+            "unit": "kWh"
+          },
+          {
+            "name": "功率",
+            "value": "200",
+            "unit": "kw"
+          },
+          {
+            "name": "温度",
+            "value": "24",
+            "unit": "°C"
+          }
+        ]
+      },
+      "pasted__extrudedSurface2": {
+        "cn": "油冷装置",
+        "en": "oil Cooling System",
+        "list": [
+          {
+            "name": "额定功率",
+            "value": "7",
+            "unit": "kw"
+          },
+          {
+            "name": "油箱容量",
+            "value": "300",
+            "unit": "L"
+          },
+          {
+            "name": "机器油耗",
+            "value": "200",
+            "unit": "G/KW.H"
+          },
+          {
+            "name": "工作时间",
+            "value": "24",
+            "unit": "H"
+          }
+        ]
+      },
+      "pasted__extrudedSurface8": {
+        "cn": "发电机",
+        "en": "Generator",
+        "list": [
+          {
+            "name": "轴承A温度",
+            "value": "33",
+            "unit": "°C"
+          },
+          {
+            "name": "轴承B温度",
+            "value": "34",
+            "unit": "°C"
+          },
+          {
+            "name": "叶轮转速",
+            "value": "8",
+            "unit": "RPM"
+          },
+          {
+            "name": "转速",
+            "value": "1322",
+            "unit": "RPM"
+          }
+        ]
+      }
+    }
+  ]
+}

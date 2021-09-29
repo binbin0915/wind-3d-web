@@ -1,0 +1,11 @@
+.environmental_monitoring {
+    position: absolute;
+    top: 45vh;
+    left: 2vh;
+    width: 40.6vw;
+}
+
+.echart_container {
+    width: 20.6vw;
+    height: 12vh;
+}
