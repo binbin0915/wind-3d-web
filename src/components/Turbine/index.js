@@ -120,7 +120,6 @@ export default class Turbine extends React.Component {
             this.scene.remove(removeTurbine)
         }
 
-
         loader.load(turbine, object => {
             this.matrixTurbine = object;
             let mesh = object.scene;
@@ -130,7 +129,7 @@ export default class Turbine extends React.Component {
             this.wireframe = mesh.getObjectByName("线框材质");
             this.metal.visible = this.state.showTurbineMtl;
             this.turbineAnimation = object.animations;
-            // // 改变风机转速的部分
+            // 改变风机转速的部分
             this.matrixTurbine.animations[0].tracks[1].times = this.changeArr(object.animations[0].tracks[1].times)// 控制透明的风机动画速度
             this.matrixTurbine.animations[0].tracks[0].times = this.changeArr(object.animations[0].tracks[0].times) // 控制有材质的风机动画速度
             this.matrixTurbine.animations[0].duration = 6 / (this.controlsGui.风速 / 5)
@@ -216,7 +215,7 @@ export default class Turbine extends React.Component {
         });
 
         const animate = () => {
-            cloudParticles.forEach(p => {
+            cloudParticles.forEach(p => { // cloudParticles 是包含 数个乌云Mesh 的数组
                 p.rotation.z -= 0.002;
             });
             if (Math.random() > 0.90 || flash.power > 220) {
@@ -361,7 +360,6 @@ export default class Turbine extends React.Component {
 
     */
     outline = (selectedObjects, color = 0x15c5e8) => {
-        // const { renderer, camera, scene } = this.global;
         const [w, h] = [window.innerWidth, window.innerHeight];
         let compose = new EffectComposer(this.renderer);
         let renderPass = new RenderPass(this.scene, this.camera);
