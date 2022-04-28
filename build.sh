@@ -2,7 +2,7 @@
 echo '------ 打包开始'
 cd $WORKSPACE
 export PATH=/home/envuser/local/node-v6.9.2-linux-x64/bin/:$PATH
-npm install --registry http://npm.envisioncn.com:7001/
+npm install #--registry http://npm.envisioncn.com:7001/
 npm run build
 echo '------ 打包结束'
 
